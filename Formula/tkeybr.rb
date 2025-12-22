@@ -5,21 +5,21 @@
 class Tkeybr < Formula
   desc "Terminal-based keyboard practice app with adaptive learning"
   homepage "https://github.com/farseenmanekhan1232/tkeybr"
-  version "0.3.1"
+  version "0.3.3"
   license "MIT"
 
   on_macos do
     on_intel do
-      url "https://github.com/farseenmanekhan1232/tkeybr/releases/download/v0.3.1/tkeybr_0.3.1_darwin_amd64.tar.gz"
-      sha256 "ebabf453d4cd3d3a4e9d1f56bfecba1f8748b951fc2d4b2240a781e2b65ef54a"
+      url "https://github.com/farseenmanekhan1232/tkeybr/releases/download/v0.3.3/tkeybr_0.3.3_darwin_amd64.tar.gz"
+      sha256 "c88d944ad4d13fa5fae32d882860827f25edceaa17503a20ecd0624e8960f8e4"
 
       def install
         bin.install "tkeybr"
       end
     end
     on_arm do
-      url "https://github.com/farseenmanekhan1232/tkeybr/releases/download/v0.3.1/tkeybr_0.3.1_darwin_arm64.tar.gz"
-      sha256 "29df0c23c49771a3f9c51d5d30b6f89e7a2ad814eb23bdb9b3d96a01b697e29d"
+      url "https://github.com/farseenmanekhan1232/tkeybr/releases/download/v0.3.3/tkeybr_0.3.3_darwin_arm64.tar.gz"
+      sha256 "eab31e1976b2fc28b70f9cc02302e57c16816664bf2a8e8c014d1aa524c410b8"
 
       def install
         bin.install "tkeybr"
@@ -30,8 +30,8 @@ class Tkeybr < Formula
   on_linux do
     on_intel do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/farseenmanekhan1232/tkeybr/releases/download/v0.3.1/tkeybr_0.3.1_linux_amd64.tar.gz"
-        sha256 "b2a0e5fd7d204e557df3f44a37bdc30d85d0644bfa6ed0ec1a7e8cc4278d0843"
+        url "https://github.com/farseenmanekhan1232/tkeybr/releases/download/v0.3.3/tkeybr_0.3.3_linux_amd64.tar.gz"
+        sha256 "9df4f367aacf6d26daed71fcb48d6e94dfc9dfe08a0b9e81822e75ee83a1df41"
 
         def install
           bin.install "tkeybr"
@@ -40,8 +40,8 @@ class Tkeybr < Formula
     end
     on_arm do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/farseenmanekhan1232/tkeybr/releases/download/v0.3.1/tkeybr_0.3.1_linux_arm64.tar.gz"
-        sha256 "fa57188ee2af4fec3cf03d78f251c44e715f303ecaefe69f8c9709a0b53fe736"
+        url "https://github.com/farseenmanekhan1232/tkeybr/releases/download/v0.3.3/tkeybr_0.3.3_linux_arm64.tar.gz"
+        sha256 "bbe58f1e000c3ef3673f5763f92bb632a5904f0d3342fed5c3374a84a9d96b33"
 
         def install
           bin.install "tkeybr"

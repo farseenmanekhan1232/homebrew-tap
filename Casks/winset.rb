@@ -1,6 +1,6 @@
 cask "winset" do
-  version "1.1.1"
-  sha256 "ef2bbb7833f79e3b0be3972e271ecc785cf97d53ea72a34c8d755aa0b463dd54"
+  version "1.1.3"
+  sha256 "b409911be1d282e19e446f368195b92b2a261f5b5fd7b356bd7b014d308d0269"
   
   url "https://github.com/farseenmanekhan1232/win-set/releases/download/v#{version}/WinSet-#{version}.zip"
   name "WinSet"

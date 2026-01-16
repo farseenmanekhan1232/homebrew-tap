@@ -1,9 +1,9 @@
 class Winset < Formula
   desc "Vim-inspired window manager for macOS with auto-tiling"
   homepage "https://github.com/farseenmanekhan1232/win-set"
-  url "https://github.com/farseenmanekhan1232/win-set/releases/download/v1.0.2/winset-macos.zip"
-  sha256 "f99ce388bbe0dbc49f9c1c5ca03f6c7a54b7e704ad1382fe69f8283cf7a26ea4"
-  version "1.0.2"
+  url "https://github.com/farseenmanekhan1232/win-set/releases/download/v1.0.4/winset-macos.zip"
+  sha256 "b980a3603e86fd27fcb73def0c7ee0e39afa33a57445ceb8858ee8317ee63710"
+  version "1.0.4"
 
   def install
     bin.install "winset"
